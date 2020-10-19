@@ -3,3 +3,37 @@ body {
   margin: 0 !important;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+#navbar{
+  height: 50px;
+  width: 100%;
+  background: #262626;
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#infoBox{
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  z-index: 9999;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+}
+#infoTitle{
+  font-size:15px;
+  font-weight: bold;
+}
+.marker{
+  border: 1px solid black;
+  background: green;
+  opacity: 0.8;
+  width:24px;
+  height:24px;
+  border-radius:50%;
+}
