@@ -167,6 +167,7 @@
       if (status === kakao.maps.services.Status.OK) {
         //넘어오는 데이터 중에 처음에 있는 결과 값을 target으로 설정
         let target = data[0];
+        console.log(target);
         const lat = target.y;
         const lng = target.x;
         const latlng = new naver.maps.LatLng(lat, lng);
@@ -182,6 +183,7 @@
           let pre_marker = search_arr.splice(0, 1);
           pre_marker[0].setMap(null);
         }
+        // marker.on('click',())
         map.setZoom(14, true);
         map.panTo(latlng);
 
