@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <div id="navbar">my-covid-map</div>
+  <div id="navbar">MY FIRST MAP</div>
   <div id="infoBox">
     <div id="infoTitle">현재 날짜</div>
     <!-- <div id="infoContent">2020.10.17</div> -->
@@ -31,6 +31,7 @@
 
   <script type="text/javascript" src="/data/data.js"></script>
   <script>
+
     function toDay() {
       let date = new Date();
       const year = date.getFullYear();
@@ -41,8 +42,6 @@
 
       return todayDate;
     }
-
-
 
     let infoDate = document.createElement('div');
     infoDate.classList.add('infoContent');

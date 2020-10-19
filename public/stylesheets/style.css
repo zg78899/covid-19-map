@@ -91,6 +91,9 @@ body {
 }
 #search_input{
   border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 5px 5px;
+  text-align: center;
 
 }
 #search_input:focus{
